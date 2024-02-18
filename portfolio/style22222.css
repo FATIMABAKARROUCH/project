@@ -1,15 +1,17 @@
 *{
    
    
-   
+    
     font-family:'poppins', sans-serif;
-    color:#fff;
+    color:#fff
 }
 html{
     scroll-behavior: smooth;
+
 }
+
 body{
-    background:rgb(36, 35, 35)
+    background:rgb(27, 27, 27)
 }
 
 
@@ -20,7 +22,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    width:1218px;
+    max-width:100%;
     border-bottom:1px solid rgb(255,255,255,.2);
     height:50px;
    
@@ -43,6 +45,8 @@ section{
    
     
 }
+
+
 
 .title2{
     opacity:50%;
@@ -98,9 +102,10 @@ strong{
     bottom:30px;
     letter-spacing:2px;
     opacity:0;
-    animation:slideRight 1s ease forwards;
+    animation:slideRight 1s  ease forwards;
     animation-delay: 0.5s;
     font-weight: bold;
+   
 }
 .home-content p{
     font-size:15px;
@@ -207,9 +212,10 @@ strong{
     animation:slideRight 1s ease forwards;
 }
 .profile:hover{
-    box-shadow:0 0 5px cyan,
+    /* box-shadow:0 0 5px cyan,
     0 0 25px purple, 0 0 50px cyan,
-    0 0 100px purple, 0 0 200px cyan;
+    0 0 100px purple, 0 0 200px cyan; */
+    filter:drop-shadow(15px 5px 35px #0ef);
 }
 
 .about{
@@ -228,9 +234,10 @@ strong{
     border: #0ef solid 2px;
 }
 .about-pic:hover{
-    box-shadow:0 0 5px cyan,
+    /* box-shadow:0 0 5px cyan,
     0 0 25px purple, 0 0 50px cyan,
-    0 0 100px purple, 0 0 200px cyan;
+    0 0 100px purple, 0 0 200px cyan; */
+    filter:drop-shadow(15px 5px 35px #0ef);
 }
 
 .about-text h2{
@@ -469,9 +476,11 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
 }
 .soft-skills i{
   font-size: 25px;
+
  
 
 }
+
 .idea i{
     color:yellow;
 }
@@ -496,7 +505,8 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     width:320px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10px;
-    padding:10px 10px 20px 10px;
+    padding:10px 15px 45px 10px;
+   
  }
  .contactMe{
     position:absolute;
@@ -509,14 +519,28 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  .contactMe span{
     color:cyan;
  }
+ input:focus{
+    outline: #0ef solid;
+ }
  
  input{
-    height:35px;
+    height:40px;
     width: 320px;
-    
+   
     border-radius:7px;
    
    
+ }
+ input[type="text"]{
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ textarea[placeholder="What do u need ?"]{
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+ }
+ textarea:focus{
+    outline: #0ef solid;
  }
 
 
@@ -525,8 +549,8 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
      width:320px;
      height:145px;
      position: relative;
-     top:10px;
-     border-radius:10px;
+     top:6px;
+     border-radius:7px;
  }
  .sub-button{
      text-align: center;
