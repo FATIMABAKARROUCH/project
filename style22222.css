@@ -30,6 +30,7 @@ body{
     
 }
 section{
+    
     position:relative;
     width:100%;
     height:100vh;
@@ -79,6 +80,8 @@ strong{
     color:#0ef;
 }
 
+
+
 .home-content{
    position:absolute;
    top:120px;
@@ -86,6 +89,7 @@ strong{
    transition:.3s;
    
 }
+
 .home-content h3{
     font-size:20px;
     letter-spacing:2px;
@@ -259,7 +263,7 @@ strong{
 }
 .about-link2{
    position:absolute;
-   top:830px;
+   top:800px;
    padding:12px 28px;
    background:#0ef;
    color:#0c192c;
@@ -322,15 +326,12 @@ strong{
    text-decoration: none;
    font-weight:600;
    margin-bottom:20px;
-   
-
 }
 .about-link2:hover{
     box-shadow:0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
 }
-
 .my-skills h2{
     font-size:30px;
     text-align:center;
@@ -342,7 +343,6 @@ strong{
 }
 .my-skills h2 span{
     color:#0ef;
-
 }
 h4{
     margin:5px;
@@ -355,9 +355,6 @@ h4{
     letter-spacing: 1px;
     font-size:x-large;
 }
-
-
-
 .skills{
     width:400px;
     margin:40px auto;
@@ -368,6 +365,10 @@ h4{
     top:80px;
     height:375px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.skills:hover{
+    box-shadow: 0 0 25px;
+    outline: #0c192c solid 2px;
 }
 #skills a{
    position:relative;
@@ -470,6 +471,10 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
    
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
+.soft-skills:hover{
+    box-shadow: 0 0 25px;
+    outline: #0c192c solid 2px;
+}
 .soft-skills div{
     margin:3px 0;
     padding:5px;
@@ -502,12 +507,16 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     position:relative;
     left:450px;
     top:200px;
-    height:250px;
-    width:320px;
+    height:260px;
+    width:350px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10px;
     padding:10px 15px 45px 10px;
    
+ }
+ .row:hover{
+    box-shadow:0 0 15px aqua;
+    outline:1px solid black
  }
  .contactMe{
     position:absolute;
@@ -520,20 +529,10 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  .contactMe span{
     color:cyan;
  }
- 
- 
-    
- 
- 
-
- 
  input{
     height:40px;
     width: 320px;
-   
     border-radius:7px;
-   
-   
  }
  input[type="text"]{
     color:black;
@@ -542,23 +541,17 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  }
  input:hover{
     color:#fff;
-    background-color: #353b48;
-   
+    background-color: #353b48; 
  }
  textarea[placeholder="What do u need ?"]{
     color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
  }
- 
-
  textarea:hover{
    
     background-color: #353b48;
     color:#fff
  }
-
-
- 
  textarea{
      width:320px;
      height:145px;
@@ -569,8 +562,8 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  .sub-button{
      text-align: center;
      position: relative;
-     top:245px;
-     left:455px;
+     top:235px;
+     left:447px;
  }
  .Sub{
      padding:10px 130px 10px 130px ;
@@ -582,15 +575,13 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
      letter-spacing:2px;
      text-decoration: none;
      font-weight:600;
-     width:330px;
-    
+     width:330px;  
  }
  .Sub:hover{
      box-shadow:0 0 5px cyan,
      0 0 25px cyan, 0 0 50px cyan;
      
  }
- 
  .footer-icons a{
     display:inline-flex;
     justify-content:center;
@@ -610,7 +601,6 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     box-shadow:0 0 20px #0ef;
     color:white
  }
- 
  .footer-icons a i{
     border-radius:50%;
     padding:7px;
@@ -623,8 +613,8 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  .footer-icons  span:hover{
     text-decoration:underline ;
     cursor:pointer;
-
  }
+ 
 
 
 
