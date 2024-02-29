@@ -25,7 +25,7 @@ body{
     max-width:100%;
     border-bottom:1px solid rgb(255,255,255,.2);
     height:50px;
-   
+    z-index: 1;
 
     
 }
@@ -220,16 +220,12 @@ strong{
     filter:drop-shadow(15px 5px 35px #0ef);
 }
 
-.about{
-    display:flex;
-    position:relative;
-    
-}
+
 .about-pic{
-    width:70px;
-    height:70px;
+    width:400px;
+    height:450px;
     position:absolute;
-    left:500px;
+    left:70px;
     top:90px;
     border-radius: 50px;
     border: solid white 2px;
@@ -242,21 +238,16 @@ strong{
     border: #0ef solid 2px;
 }
 
+
 .about-text h2{
     position:absolute;
-    top:90px;
-    left:600px;
+    top:160px;
+    left:510px;
     letter-spacing:2px;
     font-size:30px;
 }
 
-.about-text2{
-    letter-spacing:2px;
-    margin: 5px 0 5px 0;
-    font-size:20px;
-    font-weight:600;
-    top:200px;
-}
+
 .about-text span{
     color:cyan
 }
@@ -267,33 +258,27 @@ strong{
 .about-text2{
     position:relative;
     bottom:35px;
-    left:300px;
+    left:500px;
+    top:200px;
     letter-spacing:2px;
-    font-size:20px;
-    font-weight:600;
-   
+    font-size:18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height:150px;
     padding:12px;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-}
-.about-text2:hover{
-    color:black;
-    background-color: white;
     
-    opacity: 0.5;
-    box-shadow:0 0 20px white;
 }
+
 .about-text span{
     color:cyan
 }
 .seeMore{
    position:absolute;
-   top:420px;
+   top:380px;
    padding:12px 28px;
    background:#0ef;
    color:#0c192c;
    border-radius:40px;
-   left:550px;
+   left:510px;
    font-size:16px;
    letter-spacing:1px;
    text-decoration: none;
@@ -337,11 +322,12 @@ h4{
     right:380px;
     top:80px;
     height:375px;
+    border-radius: 7px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .skills:hover{
-    box-shadow: 0 0 25px;
-    outline: #0c192c solid 2px;
+    box-shadow: 0 0 35px;
+    outline: black solid 2px;
 }
 #skills a{
    position:relative;
@@ -440,13 +426,12 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     width:400px;
     margin:40px auto;
     padding:10px;
-  
-   
+    border-radius: 7px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .soft-skills:hover{
-    box-shadow: 0 0 25px;
-    outline: #0c192c solid 2px;
+    box-shadow: 0 0 35px;
+    outline: black solid 2px;
 }
 .soft-skills div{
     margin:3px 0;
@@ -485,7 +470,6 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10px;
     padding:45px;
-   
  }
  .row:hover{
     box-shadow:0 0 15px aqua;
@@ -503,7 +487,6 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     right:520px;
     letter-spacing:2px;
     font-size:22px;
-
  }
  .contactMe span{
     color:cyan;
@@ -512,6 +495,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     height:40px;
     width: 320px;
     border-radius:7px;
+  
  }
  input[type="text"]{
     color:black;
@@ -522,6 +506,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     color:#fff;
     background-color: #353b48; 
  }
+
  textarea[placeholder="What do u need ?"]{
     color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -593,15 +578,3 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     text-decoration:underline ;
     cursor:pointer;
  }
- 
- 
-
-
-
-
-
-
-
-
-
- 
