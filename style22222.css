@@ -219,8 +219,6 @@ strong{
     0 0 100px purple, 0 0 200px cyan; */
     filter:drop-shadow(15px 5px 35px #0ef);
 }
-
-
 .about-pic{
     width:400px;
     height:450px;
@@ -237,8 +235,6 @@ strong{
     filter:drop-shadow(15px 5px 35px #0ef);
     border: #0ef solid 2px;
 }
-
-
 .about-text h2{
     position:absolute;
     top:160px;
@@ -246,15 +242,9 @@ strong{
     letter-spacing:2px;
     font-size:30px;
 }
-
-
 .about-text span{
     color:cyan
 }
-
-
-
-
 .about-text2{
     position:relative;
     bottom:35px;
@@ -327,7 +317,6 @@ h4{
 }
 .skills:hover{
     box-shadow: 0 0 35px;
-    outline: black solid 2px;
 }
 #skills a{
    position:relative;
@@ -431,7 +420,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
 }
 .soft-skills:hover{
     box-shadow: 0 0 35px;
-    outline: black solid 2px;
+   
 }
 .soft-skills div{
     margin:3px 0;
