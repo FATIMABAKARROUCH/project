@@ -9,11 +9,9 @@ html{
     scroll-behavior:smooth
 
 }
-
 body{
-    background:#353b48
+    background-color: black;
 }
-
 
 .container{
     position:sticky;
@@ -26,6 +24,7 @@ body{
     border-bottom:1px solid rgb(255,255,255,.2);
     height:50px;
     z-index: 1;
+    backdrop-filter: blur(15px);
 
     
 }
@@ -214,9 +213,6 @@ strong{
 }
 
 .profile:hover{
-    /* box-shadow:0 0 5px cyan,
-    0 0 25px purple, 0 0 50px cyan,
-    0 0 100px purple, 0 0 200px cyan; */
     filter:drop-shadow(15px 5px 35px #0ef);
 }
 .about-pic{
@@ -229,9 +225,6 @@ strong{
     border: solid white 2px;
 }
 .about-pic:hover{
-    /* box-shadow:0 0 5px cyan,
-    0 0 25px purple, 0 0 50px cyan,
-    0 0 100px purple, 0 0 200px cyan; */
     filter:drop-shadow(15px 5px 35px #0ef);
     border: #0ef solid 2px;
 }
@@ -243,7 +236,7 @@ strong{
     font-size:30px;
 }
 .about-text span{
-    color:cyan
+    color:cyan;
 }
 .about-text2{
     position:relative;
@@ -449,6 +442,50 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
 .solver i{
     color:rgb(109, 106, 106)
 }
+
+#services{
+    display:flex;
+    justify-content: center;
+   
+    
+}
+#services h2{
+    position:absolute;
+    top:80px;
+    left:42%;
+    letter-spacing: 2px;
+    font-size:30px;
+}
+
+.services-part{
+    display: flex;
+    gap:8rem;
+    align-items:center;
+    letter-spacing: 2px;
+}
+.card h3{
+    text-align: center;
+}
+#services span{
+    color:#0ef
+}
+.card span{
+    color:#0ef
+}
+.serv-icons i{
+    color:#0ef;
+    font-size:20px;
+}
+
+
+.card{
+  background-color:black;
+  border-radius:10px;
+  padding:20px ;
+  border:2px solid #353b48;
+  padding-left:20px;
+}
+
 .row{
     text-align:center;
     position:relative;
@@ -459,6 +496,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     border-radius: 10px;
     padding:45px;
+    border:1px solid #353b48;
  }
  .row:hover{
     box-shadow:0 0 15px aqua;
@@ -493,7 +531,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  }
  input:hover{
     color:#fff;
-    background-color: #353b48; 
+    background-color: black; 
  }
 
  textarea[placeholder="What do u need ?"]{
@@ -502,7 +540,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  }
  textarea:hover{
    
-    background-color: #353b48;
+    background-color: black;
     color:#fff
  }
  textarea{
@@ -566,4 +604,11 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  .footer-icons  span:hover{
     text-decoration:underline ;
     cursor:pointer;
+ }
+
+
+ @media screen and (max-width:666px){
+   .navbar{
+         
+   }
  }
