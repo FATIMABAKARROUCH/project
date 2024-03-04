@@ -10,7 +10,7 @@ html{
 
 }
 body{
-    background-color: #353b48;
+    background-color: black;
 }
 
 .container{
@@ -484,8 +484,58 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
   padding:20px ;
   border:2px solid #353b48;
   padding-left:20px;
+  margin:15px;
  
 }
+#card1{
+   position:relative;
+   left:30px;
+}
+#card3{
+    position:relative;
+    right:30px;
+}
+#card2{
+    position:relative;
+   
+
+}
+.card:hover{
+    box-shadow: 0 14px 28px #0ef, 0 10px 10px #0ef;
+
+}
+.services-part a{
+    position:relative;
+    top:140px;
+    right:400px;
+    padding:12px 28px;
+    background:#0ef;
+    color:#0c192c;
+    border-radius:40px;
+    font-size:16px;
+    letter-spacing:1px;
+    text-decoration: none;
+    font-weight:600;
+    margin-bottom:20px;
+ 
+}
+.services-part a:hover{
+    box-shadow:0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
+}
+
+.card::before{
+    content:'';
+    position:absolute;
+    text-align:center;
+    top:0;
+    width:180px;
+    height:2px;
+    background-color: #0ef;
+   
+}
+
 
 .row{
     text-align:center;
@@ -533,7 +583,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  }
  input:hover{
     color:#fff;
-    background-color: #353b48; 
+    background-color: black; 
  }
 
  textarea[placeholder="What do u need ?"]{
@@ -542,7 +592,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  }
  textarea:hover{
    
-    background-color: #353b48;
+    background-color: black;
     color:#fff
  }
  textarea{
@@ -609,7 +659,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
  }
 
 
- @media screen and (max-width:670px){
+ @media screen and (max-width:700px){
     #skills{
         height:250vh;
     }
