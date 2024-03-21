@@ -682,14 +682,14 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     .home-content{
         position:absolute;
         left:20px;
-     }
+    }
      .home-icons a {
         width:35px;
         height:35px; 
     }
     .about-link{
         padding:12px 20px;
-     }
+    }
      .about-pic{
         width:100px;
         height:100px;
@@ -710,7 +710,7 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
     .seeMore{
         top:470px;
         left:150px;
-     }
+    }
     .my-skills h2{
         position: absolute;
         top:100px;
@@ -778,30 +778,29 @@ ol, li { margin-left: 0; padding-left: 0; list-style-type: none }
    }
    .contactMe h2{
     position: absolute;
-    left:250px;
+    left:200px;
     top:30px
    }
    .row{
     position:relative;
     left:50px ;
-    top:180px;
-    height:290px;
+    top:150px;
+    height:310px;
     width:320px;
+    padding:30px;
 
+   }
+   .row label{
+    visibility: hidden;
    }
    
    .footer-icons{
     visibility: hidden;
    }
-   .sub-button{
-    right:50%;
-   }
-   .sub{
-     padding:10px 90px ;
-     width:100px;  
-    
-    
-   }
+   .textarea{
+    height:400px;
+}
+   
    
     
    }
